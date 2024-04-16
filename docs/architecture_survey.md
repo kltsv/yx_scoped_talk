@@ -1,165 +1,178 @@
-# Связывание зависимостей
+# Архитектурный опрос по Flutter
+
+Опрос проводился в [канале FlutterBro](https://t.me/+zULC76vRfXthOWFi).
+
+Выборка:
+
+#|
+|| Начинающий | 7 ||
+|| Обычный | 35 ||
+|| Опытный | 33 ||
+|| **Всего** | **64** ||
+|#
+
+## Связывание зависимостей
 
 ![di_scores](/docs/images/di/di_scores.png)
 
-## Синглтоны
+### Синглтоны
 
 ![singleton](/docs/images/di/di_singleton.png)
 
-## GetIt
+### GetIt
 
 ![getit](/docs/images/di/di_getit.png)
 
-## GetIt + Injectable
+### GetIt + Injectable
 
 ![injectable](/docs/images/di/di_injectable.png)
 
-## Provider
+### Provider
 
 ![provider](/docs/images/di/di_provider.png)
 
-## Riverpod
+### Riverpod
 
 ![riverpod](/docs/images/di/di_riverpod.png)
 
-## Статический класс
+### Статический класс
 
 ![static](/docs/images/di/di_static.png)
 
-# Управление состоянием
+## Управление состоянием
 
 ![sm_scores](/docs/images/sm/sm_scores.png)
 
-## Bloc
+### Bloc
 
 ![bloc](/docs/images/sm/sm_bloc.png)
 
-## Cubit
+### Cubit
 
 ![cubit](/docs/images/sm/sm_cubit.png)
 
-## StateNotifier
+### StateNotifier
 
 ![statenotifier](/docs/images/sm/sm_statenotifier.png)
 
-## ChangeNotifier
+### ChangeNotifier
 
 ![changenotifier](/docs/images/sm/sm_changenotifier.png)
 
-## StateProvider
+### StateProvider
 
 ![stateprovider](/docs/images/sm/sm_stateprovider.png)
 
-## setState
+### setState
 
 ![setstate](/docs/images/sm/sm_state.png)
 
-## MobX
+### MobX
 
 ![mobx](/docs/images/sm/sm_mobx.png)
 
-## Redux
+### Redux
 
 ![redux](/docs/images/sm/sm_redux.png)
 
-# UI
+## UI
 
 ![ui_scores](/docs/images/ui/ui_scores.png)
 
-## Consumer
+### Consumer
 
 ![consumer](/docs/images/ui/ui_consumer.png)
 
-## ConsumerWidget
+### ConsumerWidget
 
 ![consumerwidget](/docs/images/ui/ui_consumerwidget.png)
 
-## hooks
+### hooks
 
 ![hooks](/docs/images/ui/ui_hooks.png)
 
-## StreamBuilder
+### StreamBuilder
 
 ![streambuilder](/docs/images/ui/ui_streambuilder.png)
 
-## FutureBuilder
+### FutureBuilder
 
 ![futurebuilder](/docs/images/ui/ui_futurebuilder.png)
 
-## ValueListenable
+### ValueListenable
 
 ![valuelistenable](/docs/images/ui/ui_valuelistanable.png)
 
-## setState
+### setState
 
 ![setstate](/docs/images/ui/ui_setstate.png)
 
-# Navigation
+## Navigation
 
 ![navigation_scores](/docs/images/navi/navigation_scores.png)
 
-## Через Context
+### Через Context
 
 ![context](/docs/images/navi/navigation_context.png)
 
-## Через GlobalKey
+### Через GlobalKey
 
 ![globalkey](/docs/images/navi/navigation_global.png)
 
-## Navigation 2.0
+### Navigation 2.0
 
 ![navigation2](/docs/images/navi/navigation_2.png)
 
-## go_router
+### go_router
 
 ![gorouter](/docs/images/navi/navigation_gorouter.png)
 
-## auto_route
+### auto_route
 
 ![autoroute](/docs/images/navi/navigation_autoroute.png)
 
-## beamer
+### beamer
 
 ![beamer](/docs/images/navi/navigation_beamer.png)
 
-# Дата-классы
+## Дата-классы
 
 ![dataclass_scores](/docs/images/dataclass/dataclass_scores.png)
 
-## freezed
+### freezed
 
 ![freezed](/docs/images/dataclass/dataclass_freezed.png)
 
-## built_value
+### built_value
 
 ![builtvalue](/docs/images/dataclass/dataclass_builtvalue.png)
 
-## Писать руками
+### Писать руками
 
 ![manually](/docs/images/dataclass/dataclass_manual.png)
 
-## equatable
+### equatable
 
 ![equatable](/docs/images/dataclass/dataclass_equatable.png)
 
-## Генерация через темплейты в IDE
+### Генерация через темплейты в IDE
 
 ![ide_plugin](/docs/images/dataclass/dataclass_ide_plugin.png)
 
-# Другое
+## Другое
 
-## Маппинг между слоями
+### Маппинг между слоями
 
 ![mapping](/docs/images/mapping.png)
 
-## Использование rx_dart
+### Использование rx_dart
 
 ![rx](/docs/images/rx.png)
 
-## Feature-first vs Layer-first
+### Feature-first vs Layer-first
 
 ![feature_vs_layer](/docs/images/feature_vs_layers.png)
 
-## Декомпозиция на пакеты
+### Декомпозиция на пакеты
 
 ![package_decompose](/docs/images/package_decompose.png)
