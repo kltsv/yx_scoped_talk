@@ -1,16 +1,38 @@
 # yx_scoped_talk
 
-Samples for the talk "Yet Another Flutter DI"
+## Ссылки со слайдов
 
-## Getting Started
+### DI vs ServiceLocator
 
-This project is a starting point for a Flutter application.
+https://habr.com/ru/articles/465395
 
-A few resources to get you started if this is your first Flutter project:
+https://martinfowler.com/articles/injection.html
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Инструменты связывания зависимостей во Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://pub.dev/packages/get_it
+
+https://pub.dev/packages/injectable
+
+https://pub.dev/packages/provider
+
+https://pub.dev/packages/riverpod
+
+[Статистика по результатам архитектурного опроса](/docs/architecture_survey.md)
+
+|                                      | GetIt | GetIt + Injectable | Provider | Riverpod | Синглтон | Статика |
+|--------------------------------------|-------|--------------------|----------|----------|----------|---------|
+| **Чистый Dart**                      | +     | +                  | -        | +        | +        | +       |
+| **DI**                               | +/–   | +                  | +/–      | +/–      | –        | +/–     |
+| **Compile-safe доступ**              | -     | +/–                | –        | +        | +        | +       |
+| **Нет кодгена**                      | +     | -                  | +        | +/-      | +        | +       |
+| **Реактивное состояние**             | –     | –                  | +        | +        | –        | –       |
+| **Нереактивное дерево зависимостей** | +     | +                  | –        | –        | +        | +       |
+| **Декларативное описание**           | -     | +                  | +        | +        | +        | +       |
+
+### Яндекс Про и скоупы
+
+[Устройство платформы в Яндекс Про](https://youtu.be/zfb9Udb6vNI?si=4fh-po2Z0lXVl2Ji&t=401)
+
+[Riverpod в Яндекс Про](https://www.youtube.com/live/xq-FwTR_b1g?si=djwD66KWtu4MHwNM&t=8842)
+
